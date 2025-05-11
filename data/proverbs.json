@@ -1,0 +1,274 @@
+[
+  {
+    "id": 1,
+    "textDari": "آب که از سر گذشت، چه یک گز چه صد گز",
+    "textPashto": "اوبه چې له سره تېرې شوې، که یو ګز که سل ګزه فرق نه کوي",
+    "translationEn": "Once the water is over your head, it doesn’t matter how deep.",
+    "meaning": "When a bad situation has already happened, the degree doesn't matter.",
+    "category": "wisdom"
+  },
+  {
+    "id": 2,
+    "textDari": "ز گهواره تا گور دانش بجوی",
+    "textPashto": "له زانګو تر ګور پورې زده کړه کوه",
+    "translationEn": "Seek knowledge from the cradle to the grave.",
+    "meaning": "Learning is a lifelong process.",
+    "category": "advice"
+  },
+  {
+    "id": 3,
+    "textDari": "مار گزیده از ریسمان سیاه و سفید می‌ترسد",
+    "textPashto": "د مار د چیچلي له تور او سپین رسۍ هم ویره لري",
+    "translationEn": "A person bitten by a snake fears even a black and white rope.",
+    "meaning": "Once hurt, a person becomes overly cautious.",
+    "category": "wisdom"
+  },
+  {
+    "id": 4,
+    "textDari": "هر که بامش بیش، برفش بیشتر",
+    "textPashto": "چا چې بام لوړ وي، واوره به یې هم زیاته وي",
+    "translationEn": "The higher the roof, the more snow it collects.",
+    "meaning": "With more wealth or power comes more responsibility or trouble.",
+    "category": "advice"
+  },
+  {
+    "id": 5,
+    "textDari": "خشت اول گر نهد معمار کج، تا ثریا می‌رود دیوار کج",
+    "textPashto": "که لومړۍ خښته کږه کېښودل شي، تر اسمانه دیوال کږ ځي",
+    "translationEn": "If the first brick is laid wrong, the whole wall will be crooked.",
+    "meaning": "If you start something the wrong way, the whole thing will go wrong.",
+    "category": "wisdom"
+  },
+  {
+    "id": 6,
+    "textDari": "دو صد گفته چون نیم کردار نیست",
+    "textPashto": "سل خبرې د نیم عمل ارزښت هم نه لري",
+    "translationEn": "Two hundred words are not worth half an action.",
+    "meaning": "Actions speak louder than words.",
+    "category": "advice"
+  },
+  {
+    "id": 7,
+    "textDari": "نه هر که لب به لب آورد، مادر است",
+    "textPashto": "نه هر چا چې شیدې ورکړې، مور ده",
+    "translationEn": "Not everyone who offers milk is a mother.",
+    "meaning": "Not all who appear kind truly care for you.",
+    "category": "wisdom"
+  },
+  {
+    "id": 8,
+    "textDari": "سیلی نقد به از حلوای نسیه",
+    "textPashto": "نغدې څپېړه د پور حلوې نه ښه ده",
+    "translationEn": "A slap in hand is better than promised sweets.",
+    "meaning": "A sure thing is better than a promise.",
+    "category": "advice"
+  },
+  {
+    "id": 9,
+    "textDari": "با یک گل بهار نمی‌شود",
+    "textPashto": "په یوه ګل بهار نه راځي",
+    "translationEn": "One flower doesn’t make a spring.",
+    "meaning": "One person alone can’t make a big change.",
+    "category": "wisdom"
+  },
+  {
+    "id": 10,
+    "textDari": "آتش که گرفت، خشک و تر می‌سوزد",
+    "textPashto": "اور چې ولګید، وچ او لوند یو ځای سوځي",
+    "translationEn": "When fire catches, both dry and wet burn together.",
+    "meaning": "In a disaster, both the innocent and guilty suffer.",
+    "category": "wisdom"
+  },
+  {
+    "id": 11,
+    "textDari": "تا مرد سخن نگفته باشد، عیب و هنرش نهفته باشد",
+    "textPashto": "تر څو چې سړی خبرې ونه کړي، نه یې عیب ښکاري نه هنر",
+    "translationEn": "Until a man speaks, his flaws and virtues remain hidden.",
+    "meaning": "Speech reveals a person’s character.",
+    "category": "wisdom"
+  },
+  {
+    "id": 12,
+    "textDari": "با یک دست دو هندوانه نمی‌شود برداشت",
+    "textPashto": "په یوه لاس دوه هندوانې نشې پورته کولای",
+    "translationEn": "You can't carry two watermelons with one hand.",
+    "meaning": "You can't handle too many tasks at once.",
+    "category": "advice"
+  },
+  {
+    "id": 13,
+    "textDari": "سنگ مفت، گنجشک مفت",
+    "textPashto": "کاڼی وړیا، مرغۍ وړیا",
+    "translationEn": "Free stone, free sparrow.",
+    "meaning": "If it costs nothing, there's no loss in trying.",
+    "category": "humor"
+  },
+  {
+    "id": 14,
+    "textDari": "کار از محکم کاری عیب نمی‌کند",
+    "textPashto": "احتیاط عیب نه لري",
+    "translationEn": "Being cautious never hurts the work.",
+    "meaning": "It’s always better to be careful.",
+    "category": "advice"
+  },
+  {
+    "id": 15,
+    "textDari": "دیگ به دیگ می‌گوید رویت سیاه",
+    "textPashto": "لوی دیګ کوچني ته وايي چې تور یې",
+    "translationEn": "The pot calls the kettle black.",
+    "meaning": "Criticizing others for faults you have yourself.",
+    "category": "wisdom"
+  },
+  {
+    "id": 16,
+    "textDari": "هر که طاووس خواهد، جور هندوستان کشد",
+    "textPashto": "څوک چې طاوس غواړي، باید د هند زحمت ومني",
+    "translationEn": "He who wants a peacock must endure India’s hardships.",
+    "meaning": "To gain something beautiful, you must suffer hardship.",
+    "category": "advice"
+  },
+  {
+    "id": 17,
+    "textDari": "هرکه بامداد خیزد، کامروا گردد",
+    "textPashto": "څوک چې له سهاره پاڅي، بریالی کېږي",
+    "translationEn": "He who rises early will be successful.",
+    "meaning": "Waking up early brings success.",
+    "category": "advice"
+  },
+  {
+    "id": 18,
+    "textDari": "سگ زرد برادر شغال است",
+    "textPashto": "ژېړ سپی د ګیدړ ورور دی",
+    "translationEn": "The yellow dog is the jackal’s brother.",
+    "meaning": "They’re all the same (bad kind).",
+    "category": "sarcasm"
+  },
+  {
+    "id": 19,
+    "textDari": "نه سیخ بسوزد، نه کباب",
+    "textPashto": "نه سیخ وسوځي نه کباب",
+    "translationEn": "Neither the skewer burns nor the kebab.",
+    "meaning": "Trying to keep both sides happy.",
+    "category": "wisdom"
+  },
+  {
+    "id": 20,
+    "textDari": "دل به دل راه دارد",
+    "textPashto": "زړونه یو له بله سره لاره لري",
+    "translationEn": "Heart has a way to reach another heart.",
+    "meaning": "True emotions connect people.",
+    "category": "love"
+  },
+  {
+    "id": 21,
+    "textDari": "نه خربزه خوردیم، نه هندوانه",
+    "textPashto": "نه خټکی وخوړ نه هندوانه",
+    "translationEn": "We ate neither melon nor watermelon.",
+    "meaning": "We didn’t get anything from it.",
+    "category": "humor"
+  },
+  {
+    "id": 22,
+    "textDari": "دزد نگرفته، پادشاه است",
+    "textPashto": "تر څو چې غل ونه نیول شي، بادشاه دی",
+    "translationEn": "A thief not caught is a king.",
+    "meaning": "Until you're caught, you appear innocent.",
+    "category": "sarcasm"
+  },
+  {
+    "id": 23,
+    "textDari": "چاه‌کن، ته چاه",
+    "textPashto": "چا چې چاه کنه، پخپله پکې لوېږي",
+    "translationEn": "He who digs a well for others, falls in himself.",
+    "meaning": "Harming others brings harm to yourself.",
+    "category": "wisdom"
+  },
+  {
+    "id": 24,
+    "textDari": "گربه را دم حجله می‌کشند",
+    "textPashto": "پیشه کوتره له کور واده مخکې وژني",
+    "translationEn": "They kill the cat on the wedding night.",
+    "meaning": "They use a strong example to instill fear.",
+    "category": "sarcasm"
+  },
+  {
+    "id": 25,
+    "textDari": "پول دار، زبان دار است",
+    "textPashto": "شخص چې پیسې لري، ژبه لري",
+    "translationEn": "A rich man has a voice.",
+    "meaning": "Money brings power and influence.",
+    "category": "reality"
+  },
+  {
+    "id": 26,
+    "textDari": "خسیس همیشه در رنج است",
+    "textPashto": "بخیل تل په کړاو کې وي",
+    "translationEn": "A miser is always in pain.",
+    "meaning": "Stingy people suffer mentally.",
+    "category": "advice"
+  },
+  {
+    "id": 27,
+    "textDari": "باد آورده را باد می‌برد",
+    "textPashto": "باد چې راوړي، باد یې وړي",
+    "translationEn": "What the wind brings, the wind takes.",
+    "meaning": "Easy come, easy go.",
+    "category": "wisdom"
+  },
+  {
+    "id": 28,
+    "textDari": "به گربه گفتند شاهد باش، رفت موش گرفت",
+    "textPashto": "پیشه پيشو ته وویل شاهد اوسه، لاړه موږک یې ونیو",
+    "translationEn": "They asked the cat to be a witness, she went after a mouse.",
+    "meaning": "You can’t trust someone who has conflicting interests.",
+    "category": "humor"
+  },
+  {
+    "id": 29,
+    "textDari": "موش به سوراخ نمی‌رفت، جارو به دم‌اش بست",
+    "textPashto": "مېږی خو لا سوراخ ته نه تللو، لا یې جاروب تړلی و",
+    "translationEn": "The mouse couldn't fit in the hole but tied a broom to its tail.",
+    "meaning": "Exaggerating one’s ability makes things worse.",
+    "category": "sarcasm"
+  },
+  {
+    "id": 30,
+    "textDari": "شتر در خواب بیند پنبه دانه",
+    "textPashto": "اوښ په خوب کې د پنبې دانې ویني",
+    "translationEn": "The camel dreams of cotton seeds.",
+    "meaning": "Dreaming about impossible things.",
+    "category": "sarcasm"
+  },
+  {
+    "id": 31,
+    "textDari": "آب که از سر گذشت، چه یک گز چه صد گز",
+    "textPashto": "اوبه چې له سره تېرې شوې، که یو ګز که سل ګزه فرق نه کوي",
+    "translationEn": "Once the water is over your head, it doesn’t matter how deep.",
+    "meaning": "When a bad situation has already happened, the degree doesn't matter.",
+    "category": "wisdom"
+  },
+  {
+    "id": 32,
+    "textDari": "ز گهواره تا گور دانش بجوی",
+    "textPashto": "له زانګو تر ګور پورې زده کړه کوه",
+    "translationEn": "Seek knowledge from the cradle to the grave.",
+    "meaning": "Learning is a lifelong process.",
+    "category": "advice"
+  },
+  {
+    "id": 33,
+    "textDari": "ز گهواره تا گور دانش بجوی",
+    "textPashto": "له زانګو تر ګور پورې زده کړه کوه",
+    "translationEn": "Seek knowledge from the cradle to the grave.",
+    "meaning": "Learning is a lifelong process.",
+    "category": "advice"
+  },
+  {
+    "id": 34,
+    "textDari": "ز گهواره تا گور دانش بجوی",
+    "textPashto": "له زانګو تر ګور پورې زده کړه کوه",
+    "translationEn": "Seek knowledge from the cradle to the grave.",
+    "meaning": "Learning is a lifelong process.",
+    "category": "advice"
+  }
+]

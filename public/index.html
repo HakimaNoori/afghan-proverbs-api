@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Afghan Proverbs</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Afghan Proverbs</h1>
+
+      <div class="filter">
+        <input type="text" id="searchInput" placeholder="Search..." />
+        <select id="categorySelect">
+          <option value="">All Categories</option>
+          <option value="wisdom">Wisdom</option>
+          <option value="advice">Advice</option>
+          <option value="humor">Humor</option>
+          <option value="sarcasm">Sarcasm</option>
+          <option value="love">Love</option>
+          <option value="reality">Reality</option>
+        </select>
+        <button onclick="loadProverbs()">Search</button>
+        <button onclick="loadRandomProverb()">Random</button>
+      </div>
+
+      <div id="proverbList"></div>
+    </div>
+    <h2>Add New Proverb</h2>
+    <form id="addForm">
+      <input type="text" id="textDari" placeholder="Dari" required />
+      <input type="text" id="textPashto" placeholder="Pashto" required />
+      <input
+        type="text"
+        id="translationEn"
+        placeholder="English Translation"
+        required
+      />
+      <input type="text" id="meaning" placeholder="Meaning" required />
+      <input
+        type="text"
+        id="category"
+        placeholder="Category (e.g. wisdom)"
+        required
+      />
+      <button type="submit">Add</button>
+    </form>
+
+    <script>
+      document
+        .getElementById("addForm")
+        .addEventListener("submit", async (e) => {
+          e.preventDefault();
+
+          const data = {
+            textDari: document.getElementById("textDari").value,
+            textPashto: document.getElementById("textPashto").value,
+            translationEn: document.getElementById("translationEn").value,
+            meaning: document.getElementById("meaning").value,
+            category: document.getElementById("category").value,
+          };
+
+          const res = await fetch("/api/proverbs", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(data),
+          });
+
+          if (res.ok) {
+            alert("Proverb added!");
+            e.target.reset();
+            loadProverbs(); // Refresh the list
+          } else {
+            alert("Failed to add proverb.");
+          }
+        });
+
+      async function loadProverbs() {
+        const search = document.getElementById("searchInput").value;
+        const category = document.getElementById("categorySelect").value;
+
+        let url = "/api/proverbs?";
+        if (search) url += `search=${search}&`;
+        if (category) url += `category=${category}`;
+
+        const res = await fetch(url);
+        const data = await res.json();
+
+        const container = document.getElementById("proverbList");
+        container.innerHTML = "";
+
+        data.forEach((p) => {
+          const item = document.createElement("div");
+          item.className = "proverb";
+          item.innerHTML = `
+          <p><strong>Dari:</strong> ${p.textDari}</p>
+          <p><strong>Pashto:</strong> ${p.textPashto}</p>
+          <p><strong>English:</strong> ${p.translationEn}</p>
+          <p><em>${p.meaning}</em></p>
+          <p><small>Category: ${p.category}</small></p>
+        `;
+          container.appendChild(item);
+        });
+      }
+      async function loadRandomProverb() {
+        const res = await fetch("/api/proverbs/random");
+        const p = await res.json();
+
+        const container = document.getElementById("proverbList");
+        container.innerHTML = "";
+
+        const item = document.createElement("div");
+        item.className = "proverb";
+        item.innerHTML = `
+      <p><strong>Dari:</strong> ${p.textDari}</p>
+      <p><strong>Pashto:</strong> ${p.textPashto}</p>
+      <p><strong>English:</strong> ${p.translationEn}</p>
+      <p><em>${p.meaning}</em></p>
+      <p><small>Category: ${p.category}</small></p>
+    `;
+        container.appendChild(item);
+      }
+
+      loadProverbs();
+    </script>
+  </body>
+</html>
