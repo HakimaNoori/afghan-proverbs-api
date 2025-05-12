@@ -9,26 +9,7 @@
   </head>
   <body>
     <div class="container">
-      <h1>Afghan Proverbs</h1>
-
-      <div class="filter">
-        <input type="text" id="searchInput" placeholder="Search..." />
-        <select id="categorySelect">
-          <option value="">All Categories</option>
-          <option value="wisdom">Wisdom</option>
-          <option value="advice">Advice</option>
-          <option value="humor">Humor</option>
-          <option value="sarcasm">Sarcasm</option>
-          <option value="love">Love</option>
-          <option value="reality">Reality</option>
-        </select>
-        <button onclick="loadProverbs()">Search</button>
-        <button onclick="loadRandomProverb()">Random</button>
-      </div>
-
-      <div id="proverbList"></div>
-    </div>
-    <h2>Add New Proverb</h2>
+ <h1>Add New Proverb</h1>
     <form id="addForm">
       <input type="text" id="textDari" placeholder="Dari" required />
       <input type="text" id="textPashto" placeholder="Pashto" required />
@@ -48,6 +29,27 @@
       <button type="submit">Add</button>
     </form>
 
+      <h1>Afghan Proverbs</h1>
+
+      <div class="filter">
+        <input type="text" id="searchInput" placeholder="Search..." />
+        <select id="categorySelect">
+          <option value="">All Categories</option>
+          <option value="wisdom">Wisdom</option>
+          <option value="advice">Advice</option>
+          <option value="humor">Humor</option>
+          <option value="sarcasm">Sarcasm</option>
+          <option value="love">Love</option>
+          <option value="reality">Reality</option>
+        </select>
+        <button onclick="loadProverbs()">Search</button>
+        <button onclick="loadRandomProverb()">Random</button>
+      </div>
+
+      <div id="proverbList"></div>
+
+    </div>
+    
     <script>
       document
         .getElementById("addForm")
